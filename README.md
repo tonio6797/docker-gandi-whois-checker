@@ -26,10 +26,3 @@ Authentication is required. Use either a PAT or an API key.
 | `UPDATE_SCHEDULE` | `0 9 * * *`                | Cron-style schedule for availability checks (default: every day at 9am).                                                                        |
 
 > If both `GANDI_PAT` and `GANDI_API_KEY` are set, `GANDI_PAT` takes precedence.
-
-## Output
-
-```
-example.com: AVAILABLE — 12.00 EUR /yr (excl. tax)
-example.net: UNAVAILABLE
-```
